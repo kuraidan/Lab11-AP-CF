@@ -14,7 +14,6 @@ def divide(a, b):
         raise ZeroDivisionError
     return b / a
 
-
 def logarithm(a, b):
     try:
         return math.log(a,b)
@@ -23,3 +22,12 @@ def logarithm(a, b):
 
 def exponent(a, b):
     return a**b
+
+def square_root(a):
+    try:
+        return math.sqrt(a)
+    except ValueError:
+        raise ValueError
+
+def hypotenuse(a, b):
+    math.hypot(a, b)
