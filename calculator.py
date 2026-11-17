@@ -23,13 +23,13 @@ def square_root(a):
         raise ValueError
 
 def hypotenuse(a, b):
-    math.hypot(a, b)
+    return math.hypot(a, b)
 
 def sub(a, b):
     return a -b
 
 def mul(a, b):
-    a * b
+    return a * b
 
 def div(a, b):
     if a == 0:
