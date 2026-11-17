@@ -3,7 +3,6 @@ import math
 def add(a, b):
     return a + b
 
-<<<<<<< HEAD
 def subtract(a, b):
     return a - b
 
@@ -21,7 +20,7 @@ def square_root(a):
 
 def hypotenuse(a, b):
     math.hypot(a, b)
-=======
+
 def sub(a, b):
     return a -b
 
@@ -36,4 +35,4 @@ def div(a, b):
 
 def exp(a, b):
     return a ** b
->>>>>>> 29fa48e8d945d439c417e3792abb682db92cc3e6
+
