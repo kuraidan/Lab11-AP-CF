@@ -36,3 +36,8 @@ def div(a, b):
 def exp(a, b):
     return a ** b
 
+def div(a, b):
+    if a == 0:
+        raise ZeroDivisionError("a cannot be 0")
+    return b / a
+
