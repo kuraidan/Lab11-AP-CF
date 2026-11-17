@@ -1,3 +1,7 @@
+# https://github.com/kuraidan/Lab11-AP-CF
+# Partner 1: Christian Fernandez
+# Partner 2 : Aidan Przybylski
+
 import math
 
 def add(a, b):
